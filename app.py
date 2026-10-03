@@ -205,9 +205,16 @@ if user_input:
                     })
 
                     output_text = result.get("output", "I processed your request.")
-                    intermediate_steps = result.get("intermediate_steps", [])
+                    if isinstance(output_text, list):
+                        parts = []
+                        for item in output_text:
+                            if isinstance(item, dict) and "text" in item:
+                                parts.append(item["text"])
+                            else:
+                                parts.append(str(item))
+                        output_text = "\n\n".join(parts)
 
-                    st.write(output_text)
+                    st.markdown(output_text)
 
                     if intermediate_steps:
                         with st.expander("🔍 View Agent Thought Process & Tool Calls", expanded=True):

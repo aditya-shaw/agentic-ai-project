@@ -37,7 +37,7 @@ def get_or_create_vectorstore(api_key: str):
     )
 
     embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/text-embedding-004",
+        model="models/gemini-embedding-001",
         google_api_key=api_key
     )
 
