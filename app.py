@@ -205,6 +205,7 @@ if user_input:
                     })
 
                     output_text = result.get("output", "I processed your request.")
+                    intermediate_steps = result.get("intermediate_steps", [])
                     if isinstance(output_text, list):
                         parts = []
                         for item in output_text:
