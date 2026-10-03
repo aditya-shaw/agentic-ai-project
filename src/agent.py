@@ -2,7 +2,10 @@ from typing import Any, Dict, List
 from langchain_core.tools import tool
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.agents import create_tool_calling_agent, AgentExecutor
+try:
+    from langchain.agents import create_tool_calling_agent, AgentExecutor
+except ImportError:
+    from langchain_classic.agents import create_tool_calling_agent, AgentExecutor
 
 from src.database import get_order_by_id, execute_refund, escalate_order
 from src.rag import query_policy
