@@ -1,0 +1,41 @@
+# APEX RETAIL - RETURN, REFUND, AND CANCELLATION POLICY
+Document Version: 2026.1 | Effective Date: January 1, 2026
+
+1. GENERAL RETURN POLICY
+- Customers may return eligible products within 30 calendar days of delivery for a full refund or exchange.
+- Items must be in their original packaging, unopened or in like-new condition, with all tags, manuals, and warranty cards included.
+- A valid proof of purchase (Order ID) is required for all returns and refund requests.
+
+2. CATEGORY-SPECIFIC RETURN WINDOWS
+- Electronics & Gadgets (Laptops, Headphones, Smartphones, Smartwatches):
+  * Return window is strictly 14 calendar days from delivery date.
+  * If the electronic item is verified defective or Dead-on-Arrival (DOA), a 100% full refund is issued immediately.
+  * If the item is opened but not defective (customer changed mind), a 15% restocking fee applies, or store credit is offered.
+- Apparel, Footwear, & Accessories:
+  * 30 calendar days return window. Must be unworn, unwashed, and in original condition.
+- Home Appliances & Furniture:
+  * 30 calendar days return window. Delivery fees are non-refundable unless damaged in transit.
+
+3. NON-REFUNDABLE AND FINAL SALE ITEMS
+The following categories are strictly non-refundable and non-returnable:
+- Perishable goods (food items, beverages, fresh flowers).
+- Personalized, custom-engraved, or made-to-order products.
+- Digital downloads, software license keys, and electronic gift cards.
+- Intimate apparel, swimwear, and personal health/hygiene items once unsealed.
+
+4. DAMAGED, DEFECTIVE, OR INCORRECT PRODUCTS
+- If an order arrives damaged, defective, or incorrect, the customer must report it within 7 days of delivery.
+- In cases of transit damage or verified factory defects, return shipping is completely free, and the customer is eligible for a full 100% refund or an expedited free replacement.
+
+5. REFUND METHOD AND TIMELINES
+- Approved refunds are credited back to the customer's original payment method (Credit Card, Debit Card, or UPI/PayPal).
+- Refund processing takes 3 to 5 business days to reflect in the customer's banking statement after approval.
+- An automated Refund Reference ID (e.g., REF-XXXXXX) is generated upon approval.
+
+6. AUTOMATED REFUND CRITERIA & ESCALATION RULES
+- Automated system is authorized to approve and process refunds immediately if:
+  1. The return request is made within the eligible window for the category (14 days for Electronics, 30 days for General).
+  2. The item is not in the non-refundable category.
+  3. The order status in the system is 'DELIVERED'.
+  4. The total order value is less than $1,500.
+- If an order value exceeds $1,500, or the request falls outside the return window, or the order is marked 'IN_TRANSIT', the automated agent cannot approve the refund directly and must escalate the ticket to a human manager.
