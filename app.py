@@ -56,6 +56,12 @@ with st.sidebar:
     # API Key Configuration
     st.subheader("🔑 1. API Configuration")
     env_key = os.getenv("GOOGLE_API_KEY", "")
+    if not env_key:
+        try:
+            if "GOOGLE_API_KEY" in st.secrets:
+                env_key = st.secrets["GOOGLE_API_KEY"]
+        except Exception:
+            pass
     api_key_input = st.text_input(
         "Google Gemini API Key",
         value=env_key,
